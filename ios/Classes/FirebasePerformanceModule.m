@@ -64,12 +64,14 @@
   FIRTrace *trace = [[self traces] objectForKey:traceName];
 
   if ([arguments count] == 3) {
-    NSNumber *count = [arguments objectAtIndex:2];
-    [trace incrementCounterNamed:counterName by:count.integerValue];
-    return;
+      NSNumber *count = [arguments objectAtIndex:2];
+      [trace incrementMetric:counterName byInt:count.integerValue];
+      return;
   }
+    
 
-  [trace incrementCounterNamed:counterName];
+
+    [trace incrementMetric:counterName byInt:1];
 }
 
 - (void)stopTrace:(id)name
