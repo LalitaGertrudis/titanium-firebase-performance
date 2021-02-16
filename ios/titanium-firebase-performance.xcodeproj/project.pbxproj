@@ -30,6 +30,7 @@
 		7C45C28125DC03B9004A420D /* Protobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45C27C25DC03B8004A420D /* Protobuf.xcframework */; };
 		7C45C28225DC03B9004A420D /* FirebaseABTesting.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45C27D25DC03B8004A420D /* FirebaseABTesting.xcframework */; };
 		7C45C28325DC03B9004A420D /* FirebasePerformance.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45C27F25DC03B9004A420D /* FirebasePerformance.xcframework */; };
+		7CB2640125DC1FA900CACFD5 /* FirebasePerformance.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB2640025DC1FA900CACFD5 /* FirebasePerformance.xcframework */; };
 		AA747D9F0F9514B9006C5449 /* FirebasePerformance_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* FirebasePerformance_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DBB9C1991F9958DE0060461F /* FirebasePerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB9C1981F9958DE0060461F /* FirebasePerformance.framework */; };
@@ -55,6 +56,7 @@
 		7C45C27C25DC03B8004A420D /* Protobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Protobuf.xcframework; sourceTree = "<group>"; };
 		7C45C27D25DC03B8004A420D /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
 		7C45C27F25DC03B9004A420D /* FirebasePerformance.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebasePerformance.xcframework; sourceTree = "<group>"; };
+		7CB2640025DC1FA900CACFD5 /* FirebasePerformance.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebasePerformance.xcframework; path = platform/FirebasePerformance.xcframework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* FirebasePerformance_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebasePerformance_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libfirebase.performance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfirebase.performance.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 				7C45C28225DC03B9004A420D /* FirebaseABTesting.xcframework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				7C45C28325DC03B9004A420D /* FirebasePerformance.xcframework in Frameworks */,
+				7CB2640125DC1FA900CACFD5 /* FirebasePerformance.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +105,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CB2640025DC1FA900CACFD5 /* FirebasePerformance.xcframework */,
 				DBB9C1981F9958DE0060461F /* FirebasePerformance.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
