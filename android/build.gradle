@@ -1,0 +1,8 @@
+
+repositories {
+	google()
+}
+
+dependencies {
+	implementation 'com.google.firebase:firebase-perf:19.1.1'
+}
