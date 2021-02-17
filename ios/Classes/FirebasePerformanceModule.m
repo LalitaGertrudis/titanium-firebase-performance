@@ -65,13 +65,13 @@
 
   if ([arguments count] == 3) {
       NSNumber *count = [arguments objectAtIndex:2];
-      [trace incrementMetric:counterName byInt:count.integerValue];
+      [trace incrementMetric:counterName by:count.integerValue];
       return;
   }
     
 
 
-    [trace incrementMetric:counterName byInt:1];
+    [trace incrementMetric:counterName by:1];
 }
 
 - (void)stopTrace:(id)name
